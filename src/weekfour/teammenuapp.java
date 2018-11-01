@@ -99,7 +99,7 @@ public class teammenuapp {
 		System.out.println("2) Show Team Member");
 		System.out.println("3) Add a Team Member");
 		System.out.println("4) Delete Team Member");
-		System.out.println("5) Delete All Team Members");
+		System.out.println("5) Delete All ");
 	
 		}
 	

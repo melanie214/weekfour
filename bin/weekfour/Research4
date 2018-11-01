@@ -1,0 +1,66 @@
+What are the differences between Lists, Sets, and Maps in Java?
+A Set, List, and Map are three different interfaces of the Java framework. They are unique in their set of rules. For instance, 
+a List provides an ordered and indexed collection that CAN contain duplicates. A set is similar however it provides an 
+unordered collection of objects that CANNOT contain duplications. A map provides a data structure based on key value 
+pairs and hashing. Like how we use a dictionary, the word we are looking up is a key and the definition is a value.
+
+
+
+List at least two different implementations for each collection (List, Set, and Map). When would you use one of the implementations over the other?
+An example of using a list if you need access to elements frequently by using the index without knowing the index just the 
+position or if you want to store elements and maintain that exact order.  
+
+To use a set is when you want to store elements and do no want any duplication listed. This would also be useful if you did not want to 
+store null values, because a set would only list a null value once.  
+
+If you store data in the form of a Key value a Map would useful. A map also doesn't allow duplicate keys while it does allow 
+duplicate values. 
+
+
+Write a line of code that shows how you would instantiate an ArrayList of String.
+
+ArrayList<String> list = new ArrayList<String>(); 
+list.add("one");
+list.add("two");
+list.add("three");
+
+
+Write a line of code that shows how you would instantiate a HashSet of StringBuilder.
+Set<String> fruit = new HashSet<String>();
+fruit.add("Lemon");
+fruit.add("Orange");
+
+Write a line of code that shows how you would instantiate a HashMap of String, String.
+
+  private static final Map<String, String> newMap;
+    static
+    {
+        newMap = new HashMap<String, String>();
+        newMap.put("Apples", "Oranges");
+        newMap.put("Meat", "Potatoes");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://www.java67.com/2013/01/difference-between-set-list-and-map-in-java.html
+
+https://beginnersbook.com/2015/01/difference-between-list-set-and-map-in-java/
+
+https://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line
+
+https://stackoverflow.com/questions/2041778/how-to-initialize-hashset-values-by-construction
+
+https://stackoverflow.com/questions/6802483/how-to-directly-initialize-a-hashmap-in-a-literal-way
